@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Kapakana:wght@300..400&family=Sevillana&display=swap');
+
+
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ab;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --font-padrao:arial,verdana,helvetica;
+    --font-2:  "Sevillana", cursive;
+
+}   
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #83e1ab;
+
+}
+
+
+main p {
+    margin: 15px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+header{
+    background-color: #063d1e;
+    min-height: 150px;
+    text-align: center;
+padding-top: 40px;
+
+}
+header> p{
+    color: azure;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 500px;
+    margin: auto;
+}
+
+header > h1{
+    color: #5adf4e;
+    font-family: var(--font-2);
+   font-size: 3em;
+   margin-bottom: 20px;
+  
+}
+
+nav{
+    background-color: #063d1e;
+    padding: 10px;
+    
+}
+
+
+nav >a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 2;
+}
+
+nav> a:hover{
+    color: aqua;
+}
+main{
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+
+main  img{
+    width: 100%;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+main img.pequena{
+   max-width: 350;
+    display: block;
+    margin: auto
+}
